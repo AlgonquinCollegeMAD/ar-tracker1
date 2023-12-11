@@ -3,18 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1079D93825DB16570012BDD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1079D93725DB16570012BDD1 /* AppDelegate.swift */; };
-		1079D93A25DB16570012BDD1 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 1079D93925DB16570012BDD1 /* art.scnassets */; };
-		1079D93C25DB16570012BDD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1079D93B25DB16570012BDD1 /* ViewController.swift */; };
-		1079D93F25DB16570012BDD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1079D93D25DB16570012BDD1 /* Main.storyboard */; };
-		1079D94125DB16580012BDD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1079D94025DB16580012BDD1 /* Assets.xcassets */; };
-		1079D94425DB16580012BDD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1079D94225DB16580012BDD1 /* LaunchScreen.storyboard */; };
-		1079D94F25DB16580012BDD1 /* Tracker1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1079D94E25DB16580012BDD1 /* Tracker1Tests.swift */; };
-		1079D95A25DB16580012BDD1 /* Tracker1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1079D95925DB16580012BDD1 /* Tracker1UITests.swift */; };
+		10BDDDC12B278F8F00D85B9D /* ARFaceTrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BDDDC02B278F8F00D85B9D /* ARFaceTrackingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,18 +31,10 @@
 /* Begin PBXFileReference section */
 		1079D93425DB16570012BDD1 /* Tracker1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tracker1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1079D93725DB16570012BDD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1079D93925DB16570012BDD1 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		1079D93B25DB16570012BDD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1079D93E25DB16570012BDD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1079D94025DB16580012BDD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1079D94325DB16580012BDD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1079D94525DB16580012BDD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1079D94A25DB16580012BDD1 /* Tracker1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tracker1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1079D94E25DB16580012BDD1 /* Tracker1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tracker1Tests.swift; sourceTree = "<group>"; };
-		1079D95025DB16580012BDD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1079D95525DB16580012BDD1 /* Tracker1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tracker1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1079D95925DB16580012BDD1 /* Tracker1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tracker1UITests.swift; sourceTree = "<group>"; };
-		1079D95B25DB16580012BDD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10BDDDC02B278F8F00D85B9D /* ARFaceTrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARFaceTrackingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				1079D93625DB16570012BDD1 /* Tracker1 */,
-				1079D94D25DB16580012BDD1 /* Tracker1Tests */,
-				1079D95825DB16580012BDD1 /* Tracker1UITests */,
 				1079D93525DB16570012BDD1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,32 +84,10 @@
 			isa = PBXGroup;
 			children = (
 				1079D93725DB16570012BDD1 /* AppDelegate.swift */,
-				1079D93925DB16570012BDD1 /* art.scnassets */,
-				1079D93B25DB16570012BDD1 /* ViewController.swift */,
-				1079D93D25DB16570012BDD1 /* Main.storyboard */,
-				1079D94025DB16580012BDD1 /* Assets.xcassets */,
-				1079D94225DB16580012BDD1 /* LaunchScreen.storyboard */,
+				10BDDDC02B278F8F00D85B9D /* ARFaceTrackingView.swift */,
 				1079D94525DB16580012BDD1 /* Info.plist */,
 			);
 			path = Tracker1;
-			sourceTree = "<group>";
-		};
-		1079D94D25DB16580012BDD1 /* Tracker1Tests */ = {
-			isa = PBXGroup;
-			children = (
-				1079D94E25DB16580012BDD1 /* Tracker1Tests.swift */,
-				1079D95025DB16580012BDD1 /* Info.plist */,
-			);
-			path = Tracker1Tests;
-			sourceTree = "<group>";
-		};
-		1079D95825DB16580012BDD1 /* Tracker1UITests */ = {
-			isa = PBXGroup;
-			children = (
-				1079D95925DB16580012BDD1 /* Tracker1UITests.swift */,
-				1079D95B25DB16580012BDD1 /* Info.plist */,
-			);
-			path = Tracker1UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,8 +152,9 @@
 		1079D92C25DB16570012BDD1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					1079D93325DB16570012BDD1 = {
 						CreatedOnToolsVersion = 12.4;
@@ -231,10 +194,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1079D93A25DB16570012BDD1 /* art.scnassets in Resources */,
-				1079D94425DB16580012BDD1 /* LaunchScreen.storyboard in Resources */,
-				1079D94125DB16580012BDD1 /* Assets.xcassets in Resources */,
-				1079D93F25DB16570012BDD1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +218,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1079D93C25DB16570012BDD1 /* ViewController.swift in Sources */,
 				1079D93825DB16570012BDD1 /* AppDelegate.swift in Sources */,
+				10BDDDC12B278F8F00D85B9D /* ARFaceTrackingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +227,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1079D94F25DB16580012BDD1 /* Tracker1Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +234,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1079D95A25DB16580012BDD1 /* Tracker1UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,25 +251,6 @@
 			targetProxy = 1079D95625DB16580012BDD1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		1079D93D25DB16570012BDD1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1079D93E25DB16570012BDD1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1079D94225DB16580012BDD1 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1079D94325DB16580012BDD1 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1079D95C25DB16580012BDD1 /* Debug */ = {
@@ -352,6 +290,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -413,6 +352,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
